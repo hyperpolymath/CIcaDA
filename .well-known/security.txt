@@ -1,0 +1,45 @@
+# RFC 9116 Compliant Security Contact Information
+# CIcaDA - Palimpsest Crypto Identity
+
+Contact: mailto:security@hyperpolymath.org
+Expires: 2026-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://github.com/Hyperpolymath/CIcaDA/.well-known/security.txt
+
+# Encryption Key
+Encryption: https://github.com/Hyperpolymath.gpg
+
+# Policy
+Policy: https://github.com/Hyperpolymath/CIcaDA/blob/main/SECURITY.md
+
+# Acknowledgments
+Acknowledgments: https://github.com/Hyperpolymath/CIcaDA/blob/main/SECURITY.md#acknowledgments
+
+# Security Disclosure
+#
+# CIcaDA handles cryptographic key material and should be treated as
+# security-critical software. We take security vulnerabilities seriously.
+#
+# Please report security issues to security@hyperpolymath.org with:
+# - Detailed description of the vulnerability
+# - Steps to reproduce
+# - Potential impact assessment
+# - Suggested fix (if available)
+#
+# We will acknowledge receipt within 48 hours and provide updates
+# every 7 days until resolution.
+#
+# Please DO NOT:
+# - Open public GitHub issues for security vulnerabilities
+# - Disclose vulnerabilities publicly before we've had time to fix them
+# - Test vulnerabilities against production systems without permission
+#
+# We follow responsible disclosure practices and will credit researchers
+# who report vulnerabilities responsibly.
+
+# RSR Compliance
+# This project follows the Rhodium Standard Repository (RSR) framework
+# for security, quality, and community standards.
+#
+# Tri-Perimeter Contribution Framework (TPCF): Perimeter 3 (Community Sandbox)
+# All contributors welcome under CCCP (Community Code Contribution Principles)

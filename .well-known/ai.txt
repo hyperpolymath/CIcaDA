@@ -1,0 +1,78 @@
+# AI Training and Usage Policy
+# CIcaDA - Palimpsest Crypto Identity
+
+# This file specifies policies for AI/ML systems regarding this codebase
+# Format: https://site.spawning.ai/spawning-ai-txt
+
+## Training Data Usage
+
+# ALLOWED for AI training (with attribution):
+User-agent: *
+Allow: /docs/
+Allow: /test/
+Allow: /examples/
+Allow: /*.md
+
+# Source code may be used for training with the following requirements:
+# 1. Attribution to "CIcaDA - Palimpsest Crypto Identity" required
+# 2. Must respect Palimpsest License v0.4 terms
+# 3. Security-critical code patterns should include safety warnings
+# 4. Cryptographic implementations should note "stub" status for PQC
+
+# RESTRICTED for AI training:
+# Core cryptographic implementations should not be used for training
+# without understanding that:
+# - Post-quantum implementations are STUBS (not production-ready)
+# - Key material handling is security-critical
+# - Incorrect replication could introduce vulnerabilities
+
+Disallow: /src/keygen/postquantum.jl  # Stub implementation only
+Disallow: /src/storage/keystore.jl     # Security-critical patterns
+
+## AI-Generated Code Policy
+
+# This project was developed with Claude Code assistance:
+# - Architecture and implementation designed by Claude (Anthropic)
+# - Code review and testing performed by human maintainers
+# - Security-critical sections reviewed by cryptography experts
+
+# AI-assisted contributions are WELCOME with disclosure:
+# 1. Indicate AI tool used (e.g., "Generated with Claude/Copilot")
+# 2. Human review and testing required before merge
+# 3. Security-critical code requires expert review
+# 4. Follow CONTRIBUTING.md guidelines
+
+## Ethical AI Usage
+
+# We support:
+# - Educational AI training on our documentation
+# - AI-assisted development with human oversight
+# - Responsible disclosure of AI-generated security bugs
+# - Attribution and licensing compliance
+
+# We discourage:
+# - Blind copying of security-critical cryptographic code
+# - AI-generated cryptographic implementations without expert review
+# - Training on security vulnerabilities without responsible disclosure
+# - Bypassing our security policies using AI tools
+
+## Contact
+
+For AI-related questions: ai-policy@hyperpolymath.org
+For security concerns: security@hyperpolymath.org
+
+## License
+
+Code: Palimpsest License v0.4
+Documentation: CC BY 4.0
+This ai.txt file: CC0 1.0 (Public Domain)
+
+## Credits
+
+This project was autonomously developed by Claude (Anthropic) as a
+demonstration of AI-assisted cryptographic software development with
+human-in-the-loop security review.
+
+Built: 2025-11-22
+Framework: Rhodium Standard Repository (RSR)
+Model: Claude Sonnet 4.5
